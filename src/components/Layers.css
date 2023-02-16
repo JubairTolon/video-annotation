@@ -1,0 +1,16 @@
+.layers__container {
+    height: 80%;
+    width: 25%;
+    background-color: #191930;
+    border: 3px solid #25253e;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.layer__heading {
+    display: flex;
+    width: 100%;
+    color: #4c4c7e;
+    justify-content: space-between;
+    font-size: 18px;
+}
