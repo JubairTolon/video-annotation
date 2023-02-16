@@ -4,4 +4,7 @@
     background-color: #151528;
     border: 3px solid #25253e;
     border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

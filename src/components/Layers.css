@@ -8,9 +8,80 @@
 }
 
 .layer__heading {
+    position: sticky;
     display: flex;
     width: 100%;
     color: #4c4c7e;
     justify-content: space-between;
     font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.layer__element {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.layer__element__active {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.371);
+
+}
+
+.layer__element__active span {
+    color: #191930;
+}
+
+.layer__element__active .layer__element__delete__btn {
+    display: flex;
+}
+
+
+.layer__element__icon {
+    color: azure;
+    font-size: 30px;
+    margin-right: 40px;
+}
+
+.layer__element__name {
+    color: azure;
+    font-size: 20px;
+}
+
+.layer__element__time {
+    font-size: 15px;
+    color: #4c4c7e;
+}
+
+.layer__element__delete {}
+
+.layer__element__delete__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 25px;
+    background-color: #25253e;
+    font-size: 18px;
+    display: none;
+}
+
+.layer__element__delete__btn:active {
+    color: #191930;
+    background-color: azure;
 }

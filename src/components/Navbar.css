@@ -6,10 +6,17 @@
     justify-content: space-between;
 }
 
-.nav__media__header {
+#dark .nav__media__header {
     font-size: 30px;
     letter-spacing: .1ch;
     font-weight: 600;
+}
+
+#light .nav__media__header {
+    font-size: 30px;
+    letter-spacing: .1ch;
+    font-weight: 600;
+    color: #232343;
 }
 
 .nav__media__info {
@@ -27,6 +34,10 @@
     align-items: center;
 }
 
+.theme__text {
+    color: #4c4c7e;
+}
+
 .nav__btn {
     font-size: 32px;
     display: flex;
@@ -39,9 +50,16 @@
     color: aliceblue;
 }
 
-.nav__btn:focus {
+#dark .nav__btn:focus {
     color: #151528;
     background-color: aliceblue;
     font-size: 30px;
     box-shadow: 0 0 40px rgba(255, 255, 255, 0.338);
+}
+
+#light .nav__btn:focus {
+    color: #151528;
+    background-color: aliceblue;
+    font-size: 30px;
+    box-shadow: 0 0 40px rgba(2, 11, 35, 0.609);
 }

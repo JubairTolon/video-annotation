@@ -15,9 +15,11 @@ const Home = () => {
                         <MediaArea></MediaArea>
                         <Layers></Layers>
                     </div>
+                    <div className='video__deration'>
+
+                    </div>
                 </div>
             </div>
-
         </div>
     );
 };

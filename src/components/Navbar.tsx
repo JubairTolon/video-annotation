@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { MouseEvent, useContext, useState } from 'react';
 import './Navbar.css'
 import { BsDot, BsFillPlayFill, BsShare } from 'react-icons/bs';
 import { AiFillDelete } from 'react-icons/ai';
+import ReactSwitch from 'react-switch';
+import { ThemeContext, ThemeContextType } from '../App';
+
 
 const Navbar = () => {
+    const { theme, toggleTheme } = useContext(ThemeContext) as ThemeContextType;
+
+    const [isClicked, setIsClicked] = useState<boolean>(false);
+
+    const handleTheme = (e: MouseEvent<HTMLInputElement>) => {
+        e.preventDefault();
+        setIsClicked(!isClicked);
+        console.log(isClicked);
+    };
     return (
         <nav className='navbar__container'>
             <div>
@@ -14,11 +26,9 @@ const Navbar = () => {
                 <button className='nav__btn'><BsFillPlayFill /></button>
             </div>
             <div className='nav__right'>
-                <div className="form-control">
-                    <label className="label cursor-pointer">
-                        <span className="mr-2">Theme</span>
-                        <input type="checkbox" className="toggle border-green-800" />
-                    </label>
+                <div className="flex gap-1">
+                    <label className='theme__text' htmlFor='theme'> {theme === "light" ? "Light Mode" : "Dark Mode"}</label>
+                    <ReactSwitch id='theme' onChange={toggleTheme} checked={theme === "dark"} />
                 </div>
                 <div className='flex gap-5'>
                     <button className='nav__btn'><AiFillDelete /></button>
