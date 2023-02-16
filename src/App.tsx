@@ -18,7 +18,7 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <div className='app' id={theme}>
+      <div className='app w-full' id={theme}>
         <Home />
       </div>
     </ThemeContext.Provider>

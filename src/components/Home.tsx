@@ -16,7 +16,7 @@ const Home = () => {
                         <Layers></Layers>
                     </div>
                     <div className='video__deration'>
-
+                        <span>video duration</span>
                     </div>
                 </div>
             </div>

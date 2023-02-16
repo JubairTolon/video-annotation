@@ -1,5 +1,4 @@
 #light .home__container {
-    position: relative;
     display: flex;
     background-color: aliceblue;
     color: aliceblue;
@@ -48,20 +47,22 @@
 }
 
 #light .video__deration {
-    position: absolute;
-    bottom: 40px;
     height: 150px;
-    width: 90%;
+    width: 98%;
     border-radius: 16px;
     background-color: #151529;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #dark .video__deration {
-    position: absolute;
-    bottom: 40px;
     height: 150px;
-    width: 90%;
-    border: 3px solid #232343;
+    width: 98%;
     border-radius: 16px;
     background-color: #151529;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #232343;
 }
