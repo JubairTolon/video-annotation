@@ -15,7 +15,7 @@ const Layers = () => {
         setIsClicked(true)
     }
     return (
-        <div className='ScrollbarsCustom native trackYVisible trackXVisible layers__container'>
+        <div className='layers__container'>
             <div className='layer__heading'>
                 <p>Annotaions</p>
                 <p>15</p>
@@ -62,6 +62,146 @@ const Layers = () => {
             </div>
             <div className='layer__element'>
                 <span className='layer__element__icon'><IoTrendingDownOutline /></span>
+                <div className='mr-auto'>
+                    <span className='layer__element__name'>Circle</span>
+                    <span className='layer__element__time'><p>02:00 - 03:15</p></span>
+                </div>
+                <span className='layer__element__delete'>
+                    <button className='layer__element__delete__btn'><RxCross2 /></button>
+                </span>
+            </div>
+            <div className='layer__element'>
+                <span className='layer__element__icon'><TfiText /></span>
+                <div className='mr-auto'>
+                    <span className='layer__element__name'>Circle</span>
+                    <span className='layer__element__time'><p>02:00 - 03:15</p></span>
+                </div>
+                <span className='layer__element__delete'>
+                    <button className='layer__element__delete__btn'><RxCross2 /></button>
+                </span>
+            </div>
+            <div className='layer__element'>
+                <span className='layer__element__icon'><TfiText /></span>
+                <div className='mr-auto'>
+                    <span className='layer__element__name'>Circle</span>
+                    <span className='layer__element__time'><p>02:00 - 03:15</p></span>
+                </div>
+                <span className='layer__element__delete'>
+                    <button className='layer__element__delete__btn'><RxCross2 /></button>
+                </span>
+            </div>
+            <div className='layer__element'>
+                <span className='layer__element__icon'><TfiText /></span>
+                <div className='mr-auto'>
+                    <span className='layer__element__name'>Circle</span>
+                    <span className='layer__element__time'><p>02:00 - 03:15</p></span>
+                </div>
+                <span className='layer__element__delete'>
+                    <button className='layer__element__delete__btn'><RxCross2 /></button>
+                </span>
+            </div>
+            <div className='layer__element'>
+                <span className='layer__element__icon'><TfiText /></span>
+                <div className='mr-auto'>
+                    <span className='layer__element__name'>Circle</span>
+                    <span className='layer__element__time'><p>02:00 - 03:15</p></span>
+                </div>
+                <span className='layer__element__delete'>
+                    <button className='layer__element__delete__btn'><RxCross2 /></button>
+                </span>
+            </div>
+            <div className='layer__element'>
+                <span className='layer__element__icon'><TfiText /></span>
+                <div className='mr-auto'>
+                    <span className='layer__element__name'>Circle</span>
+                    <span className='layer__element__time'><p>02:00 - 03:15</p></span>
+                </div>
+                <span className='layer__element__delete'>
+                    <button className='layer__element__delete__btn'><RxCross2 /></button>
+                </span>
+            </div>
+            <div className='layer__element'>
+                <span className='layer__element__icon'><TfiText /></span>
+                <div className='mr-auto'>
+                    <span className='layer__element__name'>Circle</span>
+                    <span className='layer__element__time'><p>02:00 - 03:15</p></span>
+                </div>
+                <span className='layer__element__delete'>
+                    <button className='layer__element__delete__btn'><RxCross2 /></button>
+                </span>
+            </div>
+            <div className='layer__element'>
+                <span className='layer__element__icon'><TfiText /></span>
+                <div className='mr-auto'>
+                    <span className='layer__element__name'>Circle</span>
+                    <span className='layer__element__time'><p>02:00 - 03:15</p></span>
+                </div>
+                <span className='layer__element__delete'>
+                    <button className='layer__element__delete__btn'><RxCross2 /></button>
+                </span>
+            </div>
+            <div className='layer__element'>
+                <span className='layer__element__icon'><TfiText /></span>
+                <div className='mr-auto'>
+                    <span className='layer__element__name'>Circle</span>
+                    <span className='layer__element__time'><p>02:00 - 03:15</p></span>
+                </div>
+                <span className='layer__element__delete'>
+                    <button className='layer__element__delete__btn'><RxCross2 /></button>
+                </span>
+            </div>
+            <div className='layer__element'>
+                <span className='layer__element__icon'><TfiText /></span>
+                <div className='mr-auto'>
+                    <span className='layer__element__name'>Circle</span>
+                    <span className='layer__element__time'><p>02:00 - 03:15</p></span>
+                </div>
+                <span className='layer__element__delete'>
+                    <button className='layer__element__delete__btn'><RxCross2 /></button>
+                </span>
+            </div>
+            <div className='layer__element'>
+                <span className='layer__element__icon'><TfiText /></span>
+                <div className='mr-auto'>
+                    <span className='layer__element__name'>Circle</span>
+                    <span className='layer__element__time'><p>02:00 - 03:15</p></span>
+                </div>
+                <span className='layer__element__delete'>
+                    <button className='layer__element__delete__btn'><RxCross2 /></button>
+                </span>
+            </div>
+            <div className='layer__element'>
+                <span className='layer__element__icon'><TfiText /></span>
+                <div className='mr-auto'>
+                    <span className='layer__element__name'>Circle</span>
+                    <span className='layer__element__time'><p>02:00 - 03:15</p></span>
+                </div>
+                <span className='layer__element__delete'>
+                    <button className='layer__element__delete__btn'><RxCross2 /></button>
+                </span>
+            </div>
+            <div className='layer__element'>
+                <span className='layer__element__icon'><TfiText /></span>
+                <div className='mr-auto'>
+                    <span className='layer__element__name'>Circle</span>
+                    <span className='layer__element__time'><p>02:00 - 03:15</p></span>
+                </div>
+                <span className='layer__element__delete'>
+                    <button className='layer__element__delete__btn'><RxCross2 /></button>
+                </span>
+            </div>
+            <div className='layer__element'>
+                <span className='layer__element__icon'><TfiText /></span>
+                <div className='mr-auto'>
+                    <span className='layer__element__name'>Circle</span>
+                    <span className='layer__element__time'><p>02:00 - 03:15</p></span>
+                </div>
+                <span className='layer__element__delete'>
+                    <button className='layer__element__delete__btn'><RxCross2 /></button>
+                </span>
+            </div>
+            <div className='layer__element'>
+                <span className='layer__element__icon'><TfiText /></span>
                 <div className='mr-auto'>
                     <span className='layer__element__name'>Circle</span>
                     <span className='layer__element__time'><p>02:00 - 03:15</p></span>

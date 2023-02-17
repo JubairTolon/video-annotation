@@ -1,10 +1,10 @@
 .sidebar__container {
-    height: 80%;
+    height: 70%;
     display: flex;
     flex-direction: column;
-    row-gap: 30px;
+    row-gap: 15px;
     align-items: center;
-    padding: 20px;
+    padding: 10px 10px 15px 0;
 }
 
 .sidebar__expand__button {
@@ -12,11 +12,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 18px;
     width: 75px;
     height: 60px;
-    padding: 16px;
     transition: all .1s;
     margin-bottom: 20px;
 }
@@ -28,7 +27,7 @@
 .sidebar__container ul li {
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .sidebar__button {
@@ -36,11 +35,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
-    border-radius: 16px;
-    width: 75px;
-    height: 55px;
-    padding: 16px;
+    font-size: 22px;
+    border-radius: 12px;
+    width: 65px;
+    height: 45px;
     transition: all .1s;
 }
 
@@ -51,14 +49,14 @@
 #light .sidebar__button:hover {
     color: azure;
     background-color: #191932;
-    box-shadow: 0 0 30px rgba(6, 5, 45, 0.508);
+    box-shadow: 0 0 20px rgba(6, 5, 45, 0.508);
     border: none;
 }
 
 #dark .sidebar__button:focus {
     color: #191932;
     background-color: azure;
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.234);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.234);
     border: none;
 }
 
@@ -72,7 +70,7 @@
 .sidebar__button:focus {
     color: #191932;
     background-color: azure;
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.234);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.234);
     border: none;
 }
 
@@ -81,11 +79,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
+    font-size: 14px;
     border: 2px solid #3c3c66;
     border-radius: 5px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     padding: 8px;
     transition: all .1s;
 }
@@ -95,11 +93,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
+    font-size: 14px;
     border: 2px solid #3c3c66;
     border-radius: 5px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     padding: 8px;
     transition: all .1s;
 }

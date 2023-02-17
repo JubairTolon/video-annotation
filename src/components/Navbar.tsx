@@ -26,9 +26,9 @@ const Navbar = () => {
                 <button className='nav__btn'><BsFillPlayFill /></button>
             </div>
             <div className='nav__right'>
-                <div className="flex gap-1">
+                <div className="flex gap-2 items-center">
                     <label className='theme__text' htmlFor='theme'> {theme === "light" ? "Light Mode" : "Dark Mode"}</label>
-                    <ReactSwitch id='theme' onChange={toggleTheme} checked={theme === "dark"} />
+                    <ReactSwitch height={18} width={40} uncheckedIcon checkedIcon onColor='' onHandleColor='#151528' id='theme' onChange={toggleTheme} checked={theme === "dark"} />
                 </div>
                 <div className='flex gap-5'>
                     <button className='nav__btn'><AiFillDelete /></button>
